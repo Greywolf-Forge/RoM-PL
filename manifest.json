@@ -1,17 +1,17 @@
 {
   "mod": "Rise of Mankind A New Dawn rev1093",
-  "release": "v0.1.1",
+  "release": "v0.2-work-in-progress",
   "polish_tags": 16340,
   "duplicated_source_tags": 0,
   "conflicts_resolved": {},
-  "sha256": "309489e6fd5700cd6386dfa63234b8084d5f1d5a734fb17896a3a67c56a9ddf6",
-  "windows_native_qa": "not yet tested",
-  "source_release": "rom-pl-r13-20261104-native-plPL",
+  "sha256": "177114c008f79e4d728d29a00284c82408cbeec9cd34018277484d1279c9b6cd",
+  "windows_native_qa": "not tested for this revision",
+  "source_release": "rom-pl-v0.1.1-native-plPL",
   "editorial_review": {
-    "date": "2026-11-05",
-    "base_version": "v0.1",
-    "changed_tags": 1616,
-    "changed_fields": 1616,
-    "source_repairs": 402
+    "base_version": "v0.1.1",
+    "status": "in_progress",
+    "changed_tags": 547,
+    "changed_fields": 547,
+    "full_review_complete": false
   }
 }
