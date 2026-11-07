@@ -1,11 +1,11 @@
 {
   "mod": "Rise of Mankind A New Dawn rev1093",
-  "release": "v0.3-candidate",
+  "release": "v0.3",
   "polish_tags": 16340,
   "duplicated_source_tags": 0,
   "conflicts_resolved": {},
   "sha256": "e80a39628b915e44527aa3bc3cfd6bf16e76fd3b1b0b66720220231dd25e26d2",
-  "windows_native_qa": "not tested for this revision",
+  "windows_native_qa": "Not tested; no claim of native Windows certification",
   "source_release": "rom-pl-v0.1.1-native-plPL",
   "editorial_review": {
     "base_version": "v0.1.1",
@@ -36,16 +36,16 @@
   "release_date": "2026-11-07",
   "source_release_role": "editorial_base",
   "project": "RoM-PL",
-  "version_status": "NOT_PUBLISHED",
-  "english_corrections": 6,
-  "english_records": 6,
+  "version_status": "VALIDATED_RELEASE",
+  "english_corrections": 123,
+  "english_records": 18,
   "polish_regression_base": "v0.2",
   "polish_unchanged": true,
   "installation": {
     "method": "copy-supported-mod-and-patch-text-files",
     "source_mod_directory": "Rise of Mankind - A New Dawn",
     "destination_mod_directory": "Rise of Mankind - A New Dawn - Greywolf Forge",
-    "catalogue_sha256": "14d009fc9b9acee84bdcb2326543e941fc23c7e2647516196ab47a8935a11594",
+    "catalogue_sha256": "da6a04af05cc6489dbc26a71f1508f1332f7e9570b9490fbae1c99fe71fbb22b",
     "source_files": {
       "ACTIONS.xml": {
         "accepted_sha256": [
@@ -401,6 +401,56 @@
       }
     },
     "runtime_overlay_files": false,
-    "python_minimum": "3.10"
+    "python_minimum": "3.10",
+    "source_guard_files": {
+      "Assets/CvGameCoreDLL.dll": "a5a88ede5b0183cc5617c0f672fa74bfb62e7b8d76c7d5b856fed3647759e129"
+    }
+  },
+  "english_review": {
+    "unique_english_tags_reviewed": 22,
+    "fully_read_short_entries": 13,
+    "fully_read_articles": 7,
+    "targeted_article_entries": 2,
+    "corrected_source_records": 18,
+    "confirmed_correction_groups": 123,
+    "replacement_specifications": 187,
+    "literal_occurrences_changed": 201,
+    "categories": {
+      "FACTUAL_ERROR": 7,
+      "MECHANICS_ERROR": 53,
+      "MATH_ERROR": 25,
+      "VERSION_SPECIFIC": 18,
+      "LANGUAGE_ERROR": 20
+    },
+    "editorial_suggestions_deferred": 6,
+    "formatting_exceptions": 3,
+    "scope_note": "Counts refer to this targeted English audit. They do not count Polish review, supporting XML labels or repeat reads as additional English entries. Correction groups can contain several related literal edits."
+  },
+  "english_sha256": "207e6df448cf515c239e2299b10955070886bb865122280fc944e163ca53e84e",
+  "validation": {
+    "automated_tests_passed": 70,
+    "automated_tests_total": 70,
+    "english_tests": 24,
+    "immutable_v02_regression_tests": 46,
+    "runtime_english": "PASS",
+    "runtime_polish": "PASS",
+    "final_full_copy_installation": "PASS",
+    "original_mod_unchanged": true,
+    "runtime_output_set_sha256": "34a31e938baa1cea08c5e71442fc4bda86fe0fccaa41b20e5fe4f496f0cee626",
+    "installer_sha256": "319abfc950fd7baaf60ba441340989cfc1309c03033be91d83d16ad8cf922e42",
+    "qa_report": "docs/QA-v0.3.json",
+    "font_profile": "Polish Wine locale/ACP1250; original theme rendered through Arial fallback; existing custom theme also tested",
+    "native_windows_tested": false,
+    "campaign_turns_save_load_tested": false
+  },
+  "wine_requirements": {
+    "LANG": "pl_PL.UTF-8",
+    "LC_ALL": "pl_PL.UTF-8",
+    "Locale": "00000415",
+    "LocaleName": "pl-PL",
+    "ACP": "1250",
+    "OEMCP": "852",
+    "MACCP": "10029",
+    "fonts": "A font covering Polish Latin glyphs; tested runner supplies Arial/Arial Bold fallback."
   }
 }
