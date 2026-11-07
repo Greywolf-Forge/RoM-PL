@@ -4,14 +4,14 @@
   "polish_tags": 16340,
   "duplicated_source_tags": 0,
   "conflicts_resolved": {},
-  "sha256": "4c0b7f8afac5c05a17ed03e523a1b56f67ccccc263878839ae994f6ff2b6df94",
+  "sha256": "ae33e7ed4577e8f6fa8ddcf51631336450d9531e1dc1b43929544e83761c01a7",
   "windows_native_qa": "not tested for this revision",
   "source_release": "rom-pl-v0.1.1-native-plPL",
   "editorial_review": {
     "base_version": "v0.1.1",
     "status": "in_progress",
-    "changed_tags": 9832,
-    "changed_fields": 9832,
+    "changed_tags": 9833,
+    "changed_fields": 9833,
     "full_review_complete": false
   }
 }
