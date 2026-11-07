@@ -1,17 +1,38 @@
 {
   "mod": "Rise of Mankind A New Dawn rev1093",
-  "release": "v0.1.1",
+  "release": "v0.2",
   "polish_tags": 16340,
   "duplicated_source_tags": 0,
   "conflicts_resolved": {},
-  "sha256": "309489e6fd5700cd6386dfa63234b8084d5f1d5a734fb17896a3a67c56a9ddf6",
-  "windows_native_qa": "not yet tested",
-  "source_release": "rom-pl-r13-20261104-native-plPL",
+  "sha256": "e80a39628b915e44527aa3bc3cfd6bf16e76fd3b1b0b66720220231dd25e26d2",
+  "windows_native_qa": "not tested for this revision",
+  "source_release": "rom-pl-v0.1.1-native-plPL",
   "editorial_review": {
-    "date": "2026-11-05",
-    "base_version": "v0.1",
-    "changed_tags": 1616,
-    "changed_fields": 1616,
-    "source_repairs": 402
-  }
+    "base_version": "v0.1.1",
+    "status": "complete",
+    "changed_tags": 9835,
+    "changed_fields": 9835,
+    "full_review_complete": true,
+    "completed_on": "2026-11-07",
+    "checkpoint": 515,
+    "reviewed_public_commit": "89cf59c7aef08bb67cb04a2c6958ddfaf0386b69",
+    "coverage_scope": "RoM-PL and CoM-PL combined",
+    "coverage": {
+      "reviewed_groups": 17613,
+      "total_groups": 17613,
+      "reviewed_fields": 34174,
+      "total_fields": 34174,
+      "pages_read": 515,
+      "pages_total": 515,
+      "complete": true
+    },
+    "validation": {
+      "static_and_integration_tests_passed": 46,
+      "static_and_integration_tests_total": 46,
+      "unresolved_numeric_or_runtime_token_differences": 0,
+      "runtime_game_qa": "not tested for this release"
+    }
+  },
+  "release_date": "2026-11-07",
+  "source_release_role": "editorial_base"
 }
